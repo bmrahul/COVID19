@@ -1,0 +1,13 @@
+<div class="list-size">
+  <div class="box-style text-center">
+    <p class="totaltitle">Total Deaths</p>
+    <p class="totalcount">{{total | number: '2.'}}</p>
+  </div>
+  <div class="box-style">
+    <div class="list-height">
+      <div class="itemlist" *ngFor="let item of result">
+        <div class="itemset"><span class="count">{{item.count | number: '2.'}}</span> <span class="name"> {{item.country}}</span></div>
+      </div>
+    </div>
+  </div>
+</div>

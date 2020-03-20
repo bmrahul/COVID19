@@ -1,0 +1,7 @@
+.main {
+  width: 98vw;
+  height: 93vh;
+  display: flex;
+  position: absolute;
+  top: 60px;
+}

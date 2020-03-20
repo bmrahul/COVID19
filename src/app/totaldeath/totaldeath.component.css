@@ -1,0 +1,49 @@
+.list-size {
+  width: 290px;
+}
+
+.box-style {
+  background: #222222;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.totaltitle {
+  position: relative;
+  top: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.totalcount {
+  color: rgb(255, 255, 255);
+  stroke-width: 2;
+  font-size: 75px;
+  line-height: normal;
+  font-weight: 400;
+  margin: 15px;
+}
+
+.list-height {
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.itemlist {
+  border-bottom: solid 1px #bdbdbd;
+}
+
+.itemset {
+  margin: 10px 0px 3px 20px;
+}
+
+.count {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
