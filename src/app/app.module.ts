@@ -4,8 +4,6 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-import { NgPipesModule } from 'ngx-pipes';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TotalcountComponent } from './totalcount/totalcount.component';
@@ -25,8 +23,7 @@ import { TotalrecoveredComponent } from './totalrecovered/totalrecovered.compone
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    NgPipesModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
