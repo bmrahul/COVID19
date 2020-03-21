@@ -39,6 +39,10 @@ export class MapComponent implements AfterViewInit, OnDestroy {
       polygonSeries.strokeWidth = 0.5;
       polygonSeries.calculateVisualCenter = true;
 
+      var polygonTemplate = polygonSeries.mapPolygons.template;
+      // polygonTemplate.tooltipText = "{name}";
+      polygonTemplate.fill = am4core.color("#E60000");
+
       let imageSeries = chart.series.push(new am4maps.MapImageSeries());
       imageSeries.data = mapData;
       imageSeries.dataFields.value = "value";
