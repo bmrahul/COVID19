@@ -10,18 +10,18 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   testConnectivity(): Observable<any> {
-    return this.http.get('http://jyothisuragani.pythonanywhere.com/helloworld').pipe();
+    return this.http.get('https://jyothisuragani.pythonanywhere.com/helloworld').pipe();
   }
 
   totalConfirmed(): Observable<any> {
-    return this.http.get('http://jyothisuragani.pythonanywhere.com/confirmed_cases_by_country').pipe();
+    return this.http.get('https://jyothisuragani.pythonanywhere.com/confirmed_cases_by_country').pipe();
   }
 
   totalDeaths(): Observable<any> {
-    return this.http.get('http://jyothisuragani.pythonanywhere.com/deaths_by_country').pipe();
+    return this.http.get('https://jyothisuragani.pythonanywhere.com/deaths_by_country').pipe();
   }
 
   totalRecovered(): Observable<any> {
-    return this.http.get('http://jyothisuragani.pythonanywhere.com/recovered_by_country').pipe();
+    return this.http.get('https://jyothisuragani.pythonanywhere.com/recovered_by_country').pipe();
   }
 }
